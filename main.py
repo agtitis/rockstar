@@ -63,7 +63,7 @@ elif st.session_state.page == "questions":
         if submitted:
             go_to_end()
 
-# End Page
+# End Page 
 elif st.session_state.page == "end":
     st.markdown(
         f"<h1 style='text-align: center; color: {tx_colour}; background-color: #000000; "
